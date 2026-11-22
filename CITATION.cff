@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "tfim-simulability: tensor-network benchmarks of Trotterized transverse-field Ising circuits"
+authors:
+  - family-names: Adebanjo
+    given-names: Abolanle Mary
+version: 0.1.0
+date-released: 2026-11-22
+license: MIT
+repository-code: "https://github.com/Kaempy/tfim-simulability"
+keywords:
+  - transverse-field Ising model
+  - tensor networks
+  - matrix product states
+  - Trotter error
+  - quantum simulation
+  - free fermions
