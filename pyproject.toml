@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfim-simulability"
+version = "0.1.0"
+description = "Where does classical simulation of Ising quantum dynamics break down? Benchmarks for the 1D transverse-field Ising model."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Abolanle Mary Adebanjo" }]
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+# Added in later phases:
+circuits = ["qiskit>=1.2", "qiskit-aer>=0.15"]
+mps = ["quimb>=1.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
