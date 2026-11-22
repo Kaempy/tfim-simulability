@@ -7,7 +7,7 @@
 
 An independent computational physics project by Abolanle Mary Adebanjo.
 
-> **How this was built.** The Phase 0 code was scaffolded with AI assistance. I review and test every result, and re-derive the physics behind it by hand, before building on it.
+<!-- > **How this was built.** The Phase 0 code was scaffolded with AI assistance. I review and test every result, and re-derive the physics behind it by hand, before building on it. -->
 
 ---
 
@@ -59,13 +59,13 @@ Both error sources are active research topics in S. Todo's group at the Universi
 
 ## Status
 
-| Phase | Content                                                                                               | Status          |
-| ----- | ----------------------------------------------------------------------------------------------------- | --------------- |
-| 0     | Sparse exact diagonalization; free-fermion (Majorana) ground state; cross-validation tests            | ✅ done         |
-| 1a    | Exact free-fermion **quench dynamics** for N = 50–200; entanglement growth S(t)                       | ⏳ next         |
-| 1b    | Qiskit Trotter circuits (1st/2nd order); Trotter error vs exact reference                             | ⏳              |
-| 2     | MPS circuit simulation [5] (Aer `matrix_product_state` + quimb cross-check; ALPS 3.0 [11] for ground states); error vs χ; simulability map | ⏳ |
-| 3     | Extension; technical report; v1.0 release with DOI                                                    | ⏳ |
+| Phase | Content                                                                                                                                    | Status  |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| 0     | Sparse exact diagonalization; free-fermion (Majorana) ground state; cross-validation tests                                                 | ✅ done |
+| 1a    | Exact free-fermion **quench dynamics** for N = 50–200; entanglement growth S(t)                                                            | ⏳ next |
+| 1b    | Qiskit Trotter circuits (1st/2nd order); Trotter error vs exact reference                                                                  | ⏳      |
+| 2     | MPS circuit simulation [5] (Aer `matrix_product_state` + quimb cross-check; ALPS 3.0 [11] for ground states); error vs χ; simulability map | ⏳      |
+| 3     | Extension; technical report; v1.0 release with DOI                                                                                         | ⏳      |
 
 ### Phase 0 results
 
